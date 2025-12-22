@@ -258,11 +258,11 @@ img{
 }
 }
 .contacto-bg{
-    background-image: url(../imagenes/gato.jpg);
+    background-image: url(../imagenes/Gemini_4.png);
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center;
 }
 /* curso */
 .curso{
