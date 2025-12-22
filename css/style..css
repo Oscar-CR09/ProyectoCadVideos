@@ -68,6 +68,11 @@ img{
 .centrar-texto{
     text-align: center;
 }
+
+.centrar-texto1{
+    text-align:justify;
+}
+
 /* header */
 .webp .header{
     background-image: url(../imagenes/Gemini_software.png);
