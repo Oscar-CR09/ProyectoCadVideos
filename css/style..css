@@ -70,13 +70,13 @@ img{
 }
 /* header */
 .webp .header{
-    background-image: url(../imagenes/portada.png);
+    background-image: url(../imagenes/Gemini_software.png);
 }
 .no-webp .header{
-    background-image: url(/imagenes/portada.png);
+    background-image: url(/imagenes/Gemini_software.png);
 }
 .header{
-    background-image: url(/imagenes/portada.png);
+    background-image: url(/imagenes/Gemini_software.png);
     height: 68rem;
     background-size: cover;
     background-repeat: no-repeat;
