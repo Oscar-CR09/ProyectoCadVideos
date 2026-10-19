@@ -1,85 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style..css">
-    <title>DISEÑOS CAD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacta a Oscar Cervantes para conversar sobre diseño CAD, ingeniería de producto y desarrollo digital.">
+  <meta name="color-scheme" content="dark light">
+  <title>Contacto | Oscar Cervantes</title>
+  <link rel="stylesheet" href="../css/style..css">
+  <script src="../js/script.js" defer></script>
 </head>
 <body>
-    <header class="header">
-        <div class="contenedor"> 
-            <div class="barra">
-                <a class="logo" href="/index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Pagina <span class="logo__bold">Cervantes Oscar</span></h1>
-                </a>
-                <nav class="navegacion">
-                    <a href="/web/nosotros.html" class="navegacion__enlace">Detras del Diseño</a>
-                    <a href="/web/cursos.html" class="navegacion__enlace">Proyectos Cad</a>
-                    <a href="/web/fullstack.html" class="navegacion__enlace">Proyectos Web</a>
-                    <a href="/web/contacto.html" class="navegacion__enlace">Contacto</a>
-
-                </nav>
-            </div>
-        </div>
-        
-    </header>
-    <main class="contenedor">
-
-        <div class="centrar-texto">
-            <h2 class="no-margin">BLOG DE DISEÑOS CAD PLANOS DIBUJOS 3D, 2D </h2>
-            <p class="no-margin"> Dibujos 3D 2D 
-                
-                </p>
-        </div>
-        <h3 class="centrar-texto">Contacto</h3>
-        <div class="contacto-bg"></div>
-        <form class="formulario">
-
-            <div class="campo">
-                <label class="campo__label" for="nombre">Nombre: </label>
-                <label class="centrar-texto" for="nombre">Oscar Cervantes Rosales </label>
-                <!-- <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre"> -->
-            </div>
-
-            <div class="campo">
-                <label class="campo__label" for="email">E-mail: </label>
-                <label class="campo__label" for="email">cervantesoscar452@gmail.com </label>
-                <!-- <input class="campo__field" type="email" placeholder="Tu E-mail" id="email"> -->
-            </div>
-
-            <div class="campo">
-                <label class="centrar-texto" for="mensaje">Telefono cel:  </label>
-                <label class="centrar-texto" for="mensaje">55-62-09-09-75  </label>
-                <!-- <textarea class="campo__field campo__field--textarea" name="" id="mensaje" cols="30" rows="10"></textarea> -->
-            </div>
-
-            <!-- <div class="campo">
-                <input type="submit" value="Enviar" class="boton boton--primario">
-            </div> -->
-        </form>
- 
-    </main>
-
-    <footer class="footer">
-        <div class="contenedor">
-            <div class="barra">
-                <a class="logo" href="/index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Pagina <span class="logo__bold"></span>Cervantes Oscar</h1>
-                </a>
-                <nav class="navegacion">
-                    <a href="/web/nosotros.html" class="navegacion__enlace">Detras del Diseño</a>
-                    <a href="/web/cursos.html" class="navegacion__enlace">Proyectos</a>
-                    <a href="/web/contacto.html" class="navegacion__enlace">Contacto</a>
-    
-                </nav>
-            </div>
-        </div>
-    </footer>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">OC<span>_</span></span><span>OSCAR CERVANTES<small>INGENIERÍA + DESARROLLO</small></span></a>
+    <div class="header-actions"><button class="theme-toggle" type="button" aria-label="Cambiar a modo claro">Modo claro</button><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">☰ <span>Menú</span></button></div>
+    <nav class="nav" id="menu" aria-label="Navegación principal"><a href="../index.html">Inicio</a><a href="../web/nosotros.html">Perfil</a><a href="../web/cursos.html">Cursos y CAD</a><a href="../web/fullstack.html">Web y Flutter</a><a href="../web/contacto.html" aria-current="page">Contacto</a></nav>
+  </div></header>
+  <main id="contenido" class="container"><section class="page-intro"><p class="eyebrow">04 / CONECTEMOS</p><h1>Las buenas ideas empiezan conversando.</h1><p class="lead">¿Necesitas planos, modelado 3D o quieres conversar sobre una solución digital? Comparte el objetivo de tu proyecto y el punto en el que te encuentras.</p></section><section class="contact-grid section"><div class="card contact-card"><p class="eyebrow">HABLEMOS DE TU IDEA</p><h2>D?jame tu mensaje</h2><p>Registra tus datos y cu?ntame c?mo puedo ayudarte.</p><form id="contact-form" action="../api/contact.php" method="post">
+<div class="form-field"><label for="name">Nombre</label><input id="name" name="name" autocomplete="name" required minlength="2" maxlength="100"></div>
+<div class="form-field"><label for="email">Correo electr?nico</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="tu@correo.com"></div>
+<div class="form-field"><label for="topic">?Qu? te interesa?</label><select id="topic" name="topic" required><option value="">Selecciona un tema</option><option>Dise?o CAD</option><option>Cursos y aprendizaje</option><option>Desarrollo web o aplicaciones</option><option>Otra consulta</option></select></div>
+<div class="form-field"><label for="message">Tu duda o proyecto</label><textarea id="message" name="message" rows="5" required minlength="10" maxlength="3000" aria-describedby="message-count"></textarea><small id="message-count">0 / 3000 caracteres</small></div>
+<div class="form-trap" aria-hidden="true"><label for="website">Sitio web</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+<label class="consent"><input type="checkbox" name="consent" value="yes" required><span>Acepto que se utilicen mi nombre, correo y mensaje para responder esta consulta.</span></label><p class="privacy-note">Tus datos se usar?n para dar seguimiento a tu solicitud. Puedes pedir su eliminaci?n al responder a mi mensaje.</p><button class="button" type="submit">Enviar consulta ?</button><p id="form-status" class="form-status" role="status" aria-live="polite"></p><noscript>Activa JavaScript para enviar tu consulta.</noscript></form></div><aside class="card"><span class="card-number">TU PRIMER MENSAJE</span><h2>Cuéntame sobre tu proyecto</h2><ul class="check-list"><li>¿Qué problema quieres resolver?</li><li>¿Qué entregables necesitas?</li><li>¿Tienes planos, referencias o medidas?</li><li>¿Cuál es tu fecha objetivo?</li></ul><p>Estos detalles ayudan a definir el alcance y el siguiente paso.</p></aside></section></main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="../index.html">OC_ <span>De la idea al producto.</span></a><p>Oscar Cervantes · CAD / Web / Apps</p><a href="../web/contacto.html">Hablemos de tu proyecto ↗</a></div></footer>
 </body>
 </html>
